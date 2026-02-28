@@ -1099,13 +1099,13 @@ main {
   transition: opacity 0.3s ease;
   cursor: pointer;
 }
-
+/* 
 body.nav-open .nav-overlay {
   display: block;
   opacity: 1;
   pointer-events: auto;
 }
-
+*/
 @media (min-width: 769px) {
   .nav-overlay {
     display: none !important;
@@ -1403,4 +1403,5 @@ body.nav-open .nav-overlay {
 @media (max-width: 1100px) {
   .fixed-socials { display: none; }
 }
+
 
