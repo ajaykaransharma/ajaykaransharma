@@ -1,11 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script>
+  document.addEventListener('contextmenu', event => event.preventDefault());
+  document.onkeydown = function(e) {
+    if(e.keyCode == 123) { return false; } // Block F12
+    if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) { return false; } // Block Ctrl+Shift+I
+  }
+    </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ajay Karan Sharma | Senior Web/Shopify Developer & Full-Stack Architect</title>
+    <title>Ajay Karan Sharma | Senior Web/Shopify Developer & Ecommerce Architect</title>
       <meta name="description" content="Senior Web Developer with 12+ years of experience specializing in Shopify Plus, Hydrogen, and high-performance ecommerce solutions. Delivering clean code and stunning UX.">
-<meta name="keywords" content="Shopify Developer, Senior Web Developer, Ecommerce Architect, Shopify Plus Expert, Ajay Karan Sharma">
+      <meta name="keywords" content="Shopify Developer, Senior Web Developer, Ecommerce Architect, Shopify Plus Expert, Ajay Karan Sharma">
+      <meta name="author" content="Ajay Karan Sharma">
+    <link rel="canonical" href="https://ajaykaransharma.com/">
+    <meta property="og:title" content="Ajay Karan Sharma | Senior Shopify Developer & Ecommerce Architect">
+   <meta property="og:description" content="Specializing in modern web applications and Shopify solutions.">
+   <meta property="og:url" content="https://ajaykaransharma.com/">
+    <meta property="og:image" content="profile.jpg">
+<meta property="og:type" content="website">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Ajay Karan Sharma",
+  "url": "https://www.ajaykaransharma.com", 
+  "jobTitle": "Senior Shopify Developer & Ecommerce Architect",
+  "description": "Senior Full-Stack Developer with 12+ years of experience specializing in Shopify Plus, Hydrogen, and high-performance ecommerce solutions.",
+  "knowsAbout": ["Shopify Plus", "Liquid", "React", "Node.js", "Ecommerce Architecture", "SEO"],
+  "sameAs": [
+    "https://github.com/ajaykaransharma",
+    "https://linkedin.com/in/ajaykaransharma"
+  ]
+}
+</script>
+    
     <link sizes="32x32" rel="icon" type="image/jpeg" href="profile.jpg">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -89,7 +119,7 @@
         <div class="hero-showcase">
           <div class="profile-wrapper">
             <div class="profile-ring"></div>
-            <img src="profile.jpg" alt="Portrait of Ajay Karan Sharma" class="profile-photo" />
+            <img src="profile.jpg" alt="Ajay Karan Sharma Senior Shopify Developer" class="profile-photo" />
           </div>
           <div class="floating-light light-one"></div>
           <div class="floating-light light-two"></div>
@@ -848,6 +878,7 @@ backToTopBtn.addEventListener("click", () => {
     <script defer src="/_vercel/speed-insights/script.js"></script>
   </body>
 </html>
+
 
 
 
