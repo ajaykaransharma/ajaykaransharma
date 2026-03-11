@@ -1,16 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset 
+xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
   <url>
-    <loc>https://ajaykaransharma.com/</loc>
+    <loc>https://www.ajaykaransharma.com/</loc>
     <lastmod>2026-03-06</lastmod>
     <priority>1.00</priority>
   </url>
 
-  <url>
-    <loc>https://ajaykaransharma.com/gallery.html</loc>
-    <lastmod>2026-03-06</lastmod>
-    <priority>0.80</priority>
-  </url>
+<url>
+  <loc>https://www.ajaykaransharma.com/gallery.html</loc>
+
+  <image:image>
+    <image:loc>https://www.ajaykaransharma.com/images/ajay-karan-sharma-web-development.png</image:loc>
+    <image:title>Ajay Karan Sharma Web Development Portfolio</image:title>
+  </image:image>
+
+  <image:image>
+    <image:loc>https://www.ajaykaransharma.com/images/ajay-karan-sharma-website-shopify-developer.png</image:loc>
+    <image:title>Ajay Karan Sharma Senior Web Developer and Shopify Expert</image:title>
+  </image:image>
+
+  <image:image>
+    <image:loc>https://www.ajaykaransharma.com/images/ajaykaransharma-shopify-developer.png</image:loc>
+    <image:title>Ajay Karan Sharma Shopify Developer and Ecommerce Architect</image:title>
+  </image:image>
+
+  <image:image>
+    <image:loc>https://www.ajaykaransharma.com/images/ajaykaransharma-shopify-partners-experts.jpg</image:loc>
+    <image:title>Ajay Karan Sharma Shopify Partners Experts Showcase</image:title>
+  </image:image>
+
+  <image:image>
+    <image:loc>https://www.ajaykaransharma.com/images/ajaykaransharma-shopify-experts.jpg</image:loc>
+    <image:title>Ajay Karan Sharma Web Developer Portfolio Photo</image:title>
+  </image:image>
+
+  <image:image>
+    <image:loc>https://www.ajaykaransharma.com/images/ajaykaransharma-shopify-partners.jpg</image:loc>
+    <image:title>Ajay Karan Sharma Shopify Partner Project Showcase</image:title>
+  </image:image>
+
+</url>
 
 </urlset>
